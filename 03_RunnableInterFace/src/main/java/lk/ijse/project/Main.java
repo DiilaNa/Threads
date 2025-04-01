@@ -2,15 +2,17 @@ package lk.ijse.project;
 
 public class Main {
     public static void main(String[] args) {
-        A a = new A();
-        a.run();
+        Runnable a = new A();
+        Thread t1 = new Thread(a);
+        t1.start();
         try {
             Thread.sleep(20);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        B b = new B();
-        b.run();
+        Runnable b = new B();
+        Thread t2 = new Thread(b);
+        t2.start();
     }
 }
     class A implements Runnable {
