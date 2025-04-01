@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/01-Introduction/pom.xml" />
         <option value="$PROJECT_DIR$/02-Extend_Thread_Class/pom.xml" />
+        <option value="$PROJECT_DIR$/03_RunnableInterFace/pom.xml" />
       </list>
     </option>
   </component>
