@@ -13,6 +13,7 @@
         <module name="03_RunnableInterFace" />
         <module name="06-ThreadPriority" />
         <module name="07-Synchronized_KeyWord" />
+        <module name="08-Inter_Thread_Communication" />
       </profile>
     </annotationProcessing>
   </component>
