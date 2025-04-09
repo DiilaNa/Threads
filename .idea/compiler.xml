@@ -11,6 +11,7 @@
         <module name="02-Extend_Thread_Class" />
         <module name="01-Introduction" />
         <module name="03_RunnableInterFace" />
+        <module name="10_DeamonThreadsNonDThreads" />
         <module name="09-ThreadPool" />
         <module name="06-ThreadPriority" />
         <module name="07-Synchronized_KeyWord" />
